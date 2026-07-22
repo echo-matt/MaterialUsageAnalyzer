@@ -1,0 +1,5 @@
+Binaries/
+Intermediate/
+*.VC.db
+*.VC.VC.opendb
+.vs/
