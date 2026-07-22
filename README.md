@@ -2,6 +2,8 @@
 
 > ⚠️ **This plugin is entirely vibecoded.** It was built through AI-assisted (Claude) iteration, not hand-audited line by line. Test it on a throwaway copy of your project before trusting it on real content. See [Known Issues](#known-issues--missing-features) below.
 
+> This plugin was created after seeing the Unreal Fest presentation https://www.youtube.com/watch?v=wobQ8ZKQpbc&t=586s&pp=0gcJCZsLAYcqIYzv, as I needed that material analyzer cool thing they showed but since I am working in 5.7 I had to backport the changes they made in 5.8, so this won't work unless you do the same.
+
 Editor-only Unreal Engine plugin that analyzes **per-material-instance usage flag** efficiency (`bUsedWithStaticLighting`, `bUsedWithSkeletalMesh`, `bUsedWithNiagaraSprites`, etc.) across a material's full instance hierarchy, tells you which flags are wasted shader permutation cost, and lets you fix it in bulk.
 
 ## Why
